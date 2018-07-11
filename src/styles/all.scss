@@ -4,33 +4,17 @@
         "./node_modules/bolser-am-strap/all";
 
 // FontAwesome
-@import "fontawesome/font-awesome";
+//@import "fontawesome/font-awesome";
 
 // Mixins
-@import "mixins/animate",
-        "mixins/rem";
+@import "mixins/rem";
 
 // Global styles
-@import "global/helpers",
+@import "global/fonts",
         "global/page",
-        "global/typography";
+        "global/typography",
+        "global/colors";
 
-// Individual pages
-@import "pages/home",
-        "pages/insurance";
-
-// UI
-@import "ui/animate",
-        "ui/buttons",
-        "ui/colours",
-        "ui/container",
-        "ui/event",
-        "ui/footer",
-        "ui/form",
-        "ui/header",
-        "ui/hero",
-        "ui/links",
-        "ui/modal",
-        "ui/map",
-        "ui/masonary",
-        "ui/nav";
+// UI styles
+@import "ui/header",
+        "ui/footer";

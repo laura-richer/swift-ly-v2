@@ -1,0 +1,21 @@
+header {
+  margin: cRem(10) cRem(20);
+  background-color: map-get($color, "black");
+  z-index: 1000;
+
+  [am-sp-prof] {
+    p {
+      margin: 0;
+
+      img {
+        border-radius: 50%;
+        margin-left: cRem(20);
+      }
+    }
+  }
+
+  @media screen and (min-width: 440px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

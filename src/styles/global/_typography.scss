@@ -1,0 +1,26 @@
+// Type styles
+
+body {
+  font-family: "Circular", Helvetica, Roboto, Arial, sans-serif;
+}
+
+h1 {
+  color: map-get($color, "white");
+  margin: 0;
+  font-weight: 700;
+  line-height: cRem(44);
+}
+
+h2 {
+  color: map-get($color, "white");
+}
+
+p {
+  font-size: cRem(16);
+  line-height: cRem(20);
+
+  &[am-font~="small"] {
+    font-size: cRem(14);
+    line-height: cRem(17);
+  }
+}

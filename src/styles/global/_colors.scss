@@ -1,0 +1,12 @@
+[am-bg~="black"] {
+  background-color: map-get($color, "black");
+  color: map-get($color, "white");
+
+  a {
+    color: map-get($color, "white");
+
+    &:hover {
+      color: map-get($color, "spotify-green");
+    }
+  }
+}

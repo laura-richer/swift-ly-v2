@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  position:relative;
+}
+
+body {
+  position: relative;
+  background-color: map-get($color, "black");
+  height: 100%;
+  color: map-get($color, "white");
+
+  .container {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+}
