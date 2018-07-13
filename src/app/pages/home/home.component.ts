@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiConnections }    from '../../services/api-connections.service';
 
 @Component({
   selector: 'home',
@@ -6,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public questions;
+
+  constructor(private apiConnections: ApiConnections) { }
 
   ngOnInit() {
+
+    // Get page info
+    this.apiConnections.getQuestions()
+      .subscribe(questions => {
+        this.questions = questions;
+        console.log(this.questions);
+      });
   }
 
 }

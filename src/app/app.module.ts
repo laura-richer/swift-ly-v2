@@ -1,8 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule }    from '@angular/platform-browser';
+import { NgModule }         from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent }            from './app.component';
+
+import { ApiConnections }          from './services/api-connections.service';
+
 import { FooterComponent }         from './global/footer/footer.component';
 import { HeaderComponent }         from './global/header/header.component';
 import { FormComponent }           from './modules/form/form.component';
@@ -22,9 +26,10 @@ import { HomeComponent }           from './pages/home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ApiConnections],
+  bootstrap: [AppComponent,]
 })
 export class AppModule { }
