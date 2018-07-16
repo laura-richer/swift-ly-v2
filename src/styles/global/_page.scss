@@ -17,7 +17,7 @@ body {
     }
 
     &[am-wrapper="gradient"] {
-      @include gradient(map-get($color, "grad-1"), map-get($color, "grad-2"));
+      //@include gradient(map-get($color, "grad-1"), map-get($color, "grad-2"));
     }
   }
 }

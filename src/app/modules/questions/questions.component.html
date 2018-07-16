@@ -1,9 +1,43 @@
-<div id="form-container">
-  <p>Answer a few questions about your day, what you did and how you are feeling and you will get your very own unique soundtrack for your day based on your answers.</p>
+<div am-container="form-wrapper">
+  <div am-row>
+    <div am-col="sm-12">
+      <p>Answer a few questions about your day, what you did and how you are feeling and you will get your very own unique soundtrack for your day based on your answers.</p>
+    </div>
+  </div>
 
-  <form id="signup-form" ng-submit="processForm()">
-    <div *ngFor="let question of questions; let i=index">
-      <p>{{question.question}}</p>
+  <form ng-submit="processForm()">
+    <div class="block-height">
+      <div *ngFor="let question of questions">
+        <div *ngIf="question.page == page">
+          <div am-row>
+            <label am-col="12">{{question.question}}</label>
+          </div>
+
+          <ul class="form-group" am-row>
+            <li class="radio" *ngFor="let answer of question.answers" am-col="sm-4 md-3">
+              <label>
+                <input
+                  type="radio"
+                  name="one"
+                  ng-model="formData.one"
+                  value="{{answer.value}}">
+                  {{answer.text}}
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="form-buttons">
+        <a
+          (click)="next(page, ans1, ans2)"
+          class="button">Next</a>
+
+        <button
+          class="reset"
+          (click)="reset()">Reset</button>
+
+      </div>
     </div>
   </form>
 </div>

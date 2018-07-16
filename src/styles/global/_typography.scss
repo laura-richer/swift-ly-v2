@@ -24,3 +24,12 @@ p {
     line-height: cRem(17);
   }
 }
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+  }
+}

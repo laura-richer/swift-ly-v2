@@ -8,6 +8,8 @@ import { ApiConnections }    from '../../services/api-connections.service';
 export class QuestionsComponent implements OnInit {
 
   public questions;
+  private current: number = 0;
+  private page: number = 1;
 
   constructor(private apiConnections: ApiConnections) { }
 
@@ -17,7 +19,15 @@ export class QuestionsComponent implements OnInit {
     this.apiConnections.getQuestions()
       .subscribe(questions => {
         this.questions = questions;
-        console.log(this.questions);
       });
+  }
+
+  next(page, ans1, ans2) {
+    this.page = page + 1;
+    console.log(this.page);
+  }
+
+  reset() {
+    this.page = 1;
   }
 }
