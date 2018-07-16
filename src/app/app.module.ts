@@ -9,7 +9,7 @@ import { ApiConnections }          from './services/api-connections.service';
 
 import { FooterComponent }         from './global/footer/footer.component';
 import { HeaderComponent }         from './global/header/header.component';
-import { FormComponent }           from './modules/form/form.component';
+import { QuestionsComponent }      from './modules/questions/questions.component';
 import { TrackDisplayComponent }   from './modules/track-display/track-display.component';
 import { TrackGeneratorComponent } from './modules/track-generator/track-generator.component';
 import { HomeComponent }           from './pages/home/home.component';
@@ -20,7 +20,7 @@ import { HomeComponent }           from './pages/home/home.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    FormComponent,
+    QuestionsComponent,
     TrackGeneratorComponent,
     TrackDisplayComponent
   ],

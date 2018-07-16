@@ -1,0 +1,9 @@
+<div id="form-container">
+  <p>Answer a few questions about your day, what you did and how you are feeling and you will get your very own unique soundtrack for your day based on your answers.</p>
+
+  <form id="signup-form" ng-submit="processForm()">
+    <div *ngFor="let question of questions; let i=index">
+      <p>{{question.question}}</p>
+    </div>
+  </form>
+</div>

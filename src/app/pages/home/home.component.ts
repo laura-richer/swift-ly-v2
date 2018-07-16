@@ -7,18 +7,8 @@ import { ApiConnections }    from '../../services/api-connections.service';
 })
 export class HomeComponent implements OnInit {
 
-  public questions;
+  constructor() { }
 
-  constructor(private apiConnections: ApiConnections) { }
-
-  ngOnInit() {
-
-    // Get page info
-    this.apiConnections.getQuestions()
-      .subscribe(questions => {
-        this.questions = questions;
-        console.log(this.questions);
-      });
-  }
+  ngOnInit() {}
 
 }

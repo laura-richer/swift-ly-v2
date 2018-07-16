@@ -9,9 +9,15 @@ body {
   height: 100%;
   color: map-get($color, "white");
 
-  .container {
-    float: left;
-    width: 100%;
-    display: block;
+  [am-wrapper] {
+    padding: cRem(50) 0;
+
+    @media #{$above-md} {
+      padding: cRem(75) 0;
+    }
+
+    &[am-wrapper="gradient"] {
+      @include gradient(map-get($color, "grad-1"), map-get($color, "grad-2"));
+    }
   }
 }

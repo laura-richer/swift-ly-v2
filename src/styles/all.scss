@@ -7,7 +7,9 @@
 //@import "fontawesome/font-awesome";
 
 // Mixins
-@import "mixins/rem";
+@import "mixins/animate",
+        "mixins/gradient",
+        "mixins/rem";
 
 // Global styles
 @import "global/fonts",
@@ -17,4 +19,5 @@
 
 // UI styles
 @import "ui/header",
-        "ui/footer";
+        "ui/footer",
+        "ui/form";
