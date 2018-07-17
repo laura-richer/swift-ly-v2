@@ -1,6 +1,6 @@
 // Form styles
 [am-container~="form-wrapper"] {
-  .block-height {
+  [am-block-height] {
     position: relative;
     min-height: 320px;
     display: block;
@@ -33,6 +33,7 @@
     padding-bottom: cRem(10);
   }
 
+  // Need to refactor
   .form-buttons {
     position: relative;
     padding-top: 30px;

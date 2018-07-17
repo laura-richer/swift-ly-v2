@@ -6,21 +6,22 @@
   </div>
 
   <form ng-submit="processForm()">
-    <div class="block-height">
+    <div am-block-height>
       <div *ngFor="let question of questions">
         <div *ngIf="question.page == page">
           <div am-row>
             <label am-col="12">{{question.question}}</label>
           </div>
 
-          <ul class="form-group" am-row>
-            <li class="radio" *ngFor="let answer of question.answers" am-col="sm-4 md-3">
+          <ul am-row>
+            <li *ngFor="let answer of question.answers; let isFirst = first" am-col="sm-4 md-3">
               <label>
                 <input
                   type="radio"
-                  name="one"
+                  name="{{answer.name}}"
                   ng-model="formData.one"
-                  value="{{answer.value}}">
+                  value="{{answer.value}}"
+                  [checked]="answer.id === 0">
                   {{answer.text}}
               </label>
             </li>

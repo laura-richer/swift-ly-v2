@@ -15,7 +15,6 @@ export class QuestionsComponent implements OnInit {
 
   ngOnInit() {
 
-    // Get page info
     this.apiConnections.getQuestions()
       .subscribe(questions => {
         this.questions = questions;
@@ -29,5 +28,6 @@ export class QuestionsComponent implements OnInit {
 
   reset() {
     this.page = 1;
+    // rest all form data here too
   }
 }
