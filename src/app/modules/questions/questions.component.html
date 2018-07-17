@@ -18,10 +18,10 @@
               <label>
                 <input
                   type="radio"
-                  name="{{answer.name}}"
-                  ng-model="formData.one"
-                  value="{{answer.value}}"
-                  [checked]="answer.id === 0">
+                  name="q-{{question.id}}"
+                  [value]="answer.value"
+                  [checked]="answer.id == 0"
+                  (change)="onSelectionChange(answer, question.id, question.page)">
                   {{answer.text}}
               </label>
             </li>
@@ -31,7 +31,7 @@
 
       <div class="form-buttons">
         <a
-          (click)="next(page, ans1, ans2)"
+          (click)="next(page)"
           class="button">Next</a>
 
         <button

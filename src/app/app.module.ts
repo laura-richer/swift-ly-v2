@@ -30,6 +30,6 @@ import { HomeComponent }           from './pages/home/home.component';
     HttpClientModule
   ],
   providers: [ApiConnections],
-  bootstrap: [AppComponent,]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

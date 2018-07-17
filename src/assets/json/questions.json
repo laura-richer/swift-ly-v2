@@ -6,43 +6,36 @@
   "answers": [
   {
     "id": 0,
-    "name": "one",
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 1,
-    "name": "one",
     "text": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
-    "name": "one",
     "text": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
-    "name": "one",
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 4,
-    "name": "one",
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 5,
-    "name": "one",
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
-    "name": "one",
     "text": "Stressed",
     "value": "stressed"
   }]
@@ -54,37 +47,31 @@
   "answers": [
   {
     "id": 0,
-    "name": "two",
     "text": "Sunny",
     "value": "sunny"
   },
   {
     "id": 1,
-    "name": "two",
     "text": "Crisp",
     "value": "crisp"
   },
   {
     "id": 2,
-    "name": "two",
     "text": "Raining",
     "value": "raining"
   },
   {
     "id": 3,
-    "name": "two",
     "text": "Dark",
     "value": "dark"
   },
   {
     "id": 4,
-    "name": "two",
     "text": "Cold",
     "value": "cold"
   },
   {
     "id": 5,
-    "name": "two",
     "text": "Windy",
     "value": "windy"
   }]
@@ -96,25 +83,21 @@
   "answers": [
   {
     "id": 0,
-    "name": "three",
     "text": "Going to work",
     "value": "work"
   },
   {
     "id": 1,
-    "name": "three",
     "text": "Going to School",
     "value": "school"
   },
   {
     "id": 2,
-    "name": "three",
     "text": "Having a day off",
     "value": "dayoff"
   },
   {
     "id": 3,
-    "name": "three",
     "text": "No work/school it’s the weekend!",
     "value": "weekend"
   }]
@@ -126,43 +109,36 @@
   "answers": [
   {
     "id": 0,
-    "name": "four",
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 1,
-    "name": "four",
     "text": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
-    "name": "four",
     "text": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
-    "name": "four",
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 4,
-    "name": "four",
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 5,
-    "name": "four",
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
-    "name": "four",
     "text": "Stressed",
     "value": "stressed"
   }]
@@ -174,49 +150,41 @@
   "answers": [
   {
     "id": 0,
-    "name": "five",
     "category": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 1,
-    "name": "five",
     "category": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
-    "name": "five",
     "category": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
-    "name": "five",
     "category": "Stressed",
     "value": "stressed"
   },
   {
     "id": 4,
-    "name": "five",
     "category": "Bored",
     "value": "bored"
   },
   {
     "id": 5,
-    "name": "five",
     "category": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
-    "name": "five",
     "category": "Busy",
     "value": "busy"
   },
   {
     "id": 7,
-    "name": "five",
     "category": "Rushed",
     "value": "rushed"
   }]
@@ -228,31 +196,26 @@
   "answers": [
   {
     "id": 0,
-    "name": "six",
     "text": "Relax",
     "value": "relax"
   },
   {
     "id": 1,
-    "name": "six",
     "text": "Run Errands",
     "value": "errands"
   },
   {
     "id": 2,
-    "name": "six",
     "text": "Enjoy a Hobby",
     "value": "hobby"
   },
   {
     "id": 3,
-    "name": "six",
     "text": "Exercise",
     "value": "exercise"
   },
   {
     "id": 4,
-    "name": "six",
     "text": "Do Housework/Chores",
     "value": "chores"
   }]
@@ -264,43 +227,36 @@
   "answers": [
   {
     "id": 0,
-    "name": "seven",
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 1,
-    "name": "seven",
     "text": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
-    "name": "seven",
     "text": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
-    "name": "seven",
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 4,
-    "name": "seven",
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 5,
-    "name": "seven",
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
-    "name": "seven",
     "text": "Stressed",
     "value": "stressed"
   }]
@@ -312,31 +268,26 @@
   "answers": [
   {
     "id": 0,
-    "name": "eight",
     "text": "A Sport",
     "value": "sport"
   },
   {
     "id": 1,
-    "name": "eight",
     "text": "Something Crafty",
     "value": "craft"
   },
   {
     "id": 2,
-    "name": "eight",
     "text": "Something Practical",
     "value": "practical"
   },
   {
     "id": 3,
-    "name": "eight",
     "text": "Musical",
     "value": "musical"
   },
   {
     "id": 4,
-    "name": "eight",
     "text": "Techy",
     "value": "techy"
   }]
@@ -348,37 +299,31 @@
   "answers": [
   {
     "id": 0,
-    "name": "nine",
     "text": "Relax",
     "value": "relax"
   },
   {
     "id": 1,
-    "name": "nine",
     "text": "See Friends",
     "value": "friends"
   },
   {
     "id": 2,
-    "name": "nine",
     "text": "Have Friends over for dinner",
     "value": "dinner"
   },
   {
     "id": 3,
-    "name": "nine",
     "text": "Go out for the evening",
     "value": "evening"
   },
   {
     "id": 4,
-    "name": "nine",
     "text": "Go out for the night",
     "value": "night"
   },
   {
     "id": 5,
-    "name": "nine",
     "text": "PARTY!",
     "value": "party"
   }]
@@ -390,37 +335,31 @@
   "answers": [
   {
     "id": 0,
-    "name": "ten",
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 1,
-    "name": "ten",
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 2,
-    "name": "ten",
     "text": "Tired",
     "value": "tired"
   },
   {
     "id": 3,
-    "name": "ten",
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 4,
-    "name": "ten",
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 5,
-    "name": "ten",
     "text": "Sleep? Its Friday/Saturday night, no time for sleep!",
     "value": "sleep"
   }]
