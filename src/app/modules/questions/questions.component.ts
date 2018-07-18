@@ -43,6 +43,6 @@ export class QuestionsComponent implements OnInit {
   onSelectionChange(answer, id, page) {
     let updateItem = this.answers.find(x => x.name == "q-" + id);
     let index = this.answers.indexOf(updateItem);
-    this.answers[index] = {"value": answer.value, "name": "q-" + id, "page": page, "next": answer.next};
+    this.answers[index] = {"value": answer.value, "name": "q-" + id, "page": page, "next": answer.next, "cat": answer.cat};
   }
 }

@@ -8,43 +8,50 @@
     "id": 0,
     "next": 2,
     "text": "Happy",
-    "value": "happy"
+    "value": "happy",
+    "cat": "indie_alt"
   },
   {
     "id": 1,
     "next": 2,
     "text": "Motivated",
-    "value": "motivated"
+    "value": "motivated",
+    "cat": "focus"
   },
   {
     "id": 2,
     "next": 2,
     "text": "Excited",
-    "value": "excited"
+    "value": "excited",
+    "cat": "workout"
   },
   {
     "id": 3,
     "next": 2,
     "text": "Relaxed",
-    "value": "relaxed"
+    "value": "relaxed",
+    "cat": "chill"
   },
   {
     "id": 4,
     "next": 2,
     "text": "Sad",
-    "value": "sad"
+    "value": "sad",
+    "cat": "blues"
   },
   {
     "id": 5,
     "next": 2,
     "text": "Angry",
-    "value": "angry"
+    "value": "angry",
+    "cat": "punk"
   },
   {
     "id": 6,
     "next": 2,
     "text": "Stressed",
-    "value": "stressed"
+    "value": "stressed",
+    "cat": "metal"
   }]
 },
 {
@@ -55,32 +62,38 @@
   {
     "id": 0,
     "text": "Sunny",
-    "value": "sunny"
+    "value": "sunny",
+    "cat": "reggae"
   },
   {
     "id": 1,
     "text": "Crisp",
-    "value": "crisp"
+    "value": "crisp",
+    "cat": "mood"
   },
   {
     "id": 2,
     "text": "Raining",
-    "value": "raining"
+    "value": "raining",
+    "cat": "blues"
   },
   {
     "id": 3,
     "text": "Dark",
-    "value": "dark"
+    "value": "dark",
+    "cat": "mood"
   },
   {
     "id": 4,
     "text": "Cold",
-    "value": "cold"
+    "value": "cold",
+    "cat": "mood"
   },
   {
     "id": 5,
     "text": "Windy",
-    "value": "windy"
+    "value": "windy",
+    "cat": "blues"
   }]
 },
 {
@@ -92,25 +105,29 @@
     "id": 0,
     "next": 3,
     "text": "Going to work",
-    "value": "work"
+    "value": "work",
+    "cat": "focus"
   },
   {
     "id": 1,
     "next": 6,
     "text": "Going to School",
-    "value": "school"
+    "value": "school",
+    "cat": "focus"
   },
   {
     "id": 2,
     "next": 4,
     "text": "Having a day off",
-    "value": "dayoff"
+    "value": "dayoff",
+    "cat": "travel"
   },
   {
     "id": 3,
     "next": 4,
     "text": "No work/school it’s the weekend!",
-    "value": "weekend"
+    "value": "weekend",
+    "cat": "reggae"
   }]
 },
 {
@@ -121,37 +138,44 @@
   {
     "id": 0,
     "text": "Happy",
-    "value": "happy"
+    "value": "happy",
+    "cat": "indie_alt"
   },
   {
     "id": 1,
     "text": "Motivated",
-    "value": "motivated"
+    "value": "motivated",
+    "cat": "focus"
   },
   {
     "id": 2,
     "text": "Excited",
-    "value": "excited"
+    "value": "excited",
+    "cat": "workout"
   },
   {
     "id": 3,
     "text": "Relaxed",
-    "value": "relaxed"
+    "value": "relaxed",
+    "cat": "chill"
   },
   {
     "id": 4,
     "text": "Sad",
-    "value": "sad"
+    "value": "sad",
+    "cat": "blues"
   },
   {
     "id": 5,
     "text": "Angry",
-    "value": "angry"
+    "value": "angry",
+    "cat": "punk"
   },
   {
     "id": 6,
     "text": "Stressed",
-    "value": "stressed"
+    "value": "stressed",
+    "cat": "metal"
   }]
 },
 {
@@ -163,49 +187,57 @@
     "id": 0,
     "next": 6,
     "text": "Relaxed",
-    "value": "relaxed"
+    "value": "relaxed",
+    "cat": "chill"
   },
   {
     "id": 1,
     "next": 6,
     "text": "Motivated",
-    "value": "motivated"
+    "value": "motivated",
+    "cat": "focus"
   },
   {
     "id": 2,
     "next": 6,
     "text": "Excited",
-    "value": "excited"
+    "value": "excited",
+    "cat": "workout"
   },
   {
     "id": 3,
     "next": 6,
     "text": "Stressed",
-    "value": "stressed"
+    "value": "stressed",
+    "cat": "metal"
   },
   {
     "id": 4,
     "next": 6,
     "text": "Bored",
-    "value": "bored"
+    "value": "bored",
+    "cat": "mood"
   },
   {
     "id": 5,
     "next": 6,
     "text": "Angry",
-    "value": "angry"
+    "value": "angry",
+    "cat": "punk"
   },
   {
     "id": 6,
     "next": 6,
     "text": "Busy",
-    "value": "busy"
+    "value": "busy",
+    "cat": "rock"
   },
   {
     "id": 7,
     "next": 6,
     "text": "Rushed",
-    "value": "rushed"
+    "value": "rushed",
+    "cat": "metal"
   }]
 },
 {
@@ -223,25 +255,29 @@
     "id": 1,
     "next": 6,
     "text": "Run Errands",
-    "value": "errands"
+    "value": "errands",
+    "cat": "workout"
   },
   {
     "id": 2,
     "next": 5,
     "text": "Enjoy a Hobby",
-    "value": "hobby"
+    "value": "hobby",
+    "cat": "focus"
   },
   {
     "id": 3,
     "next": 6,
     "text": "Exercise",
-    "value": "exercise"
+    "value": "exercise",
+    "cat": "workout"
   },
   {
     "id": 4,
     "next": 6,
     "text": "Do Housework/Chores",
-    "value": "chores"
+    "value": "chores",
+    "cat": "blues"
   }]
 },
 {
@@ -252,37 +288,44 @@
   {
     "id": 0,
     "text": "Happy",
-    "value": "happy"
+    "value": "happy",
+    "cat": "indie_alt"
   },
   {
     "id": 1,
     "text": "Motivated",
-    "value": "motivated"
+    "value": "motivated",
+    "cat": "focus"
   },
   {
     "id": 2,
     "text": "Excited",
-    "value": "excited"
+    "value": "excited",
+    "cat": "workout"
   },
   {
     "id": 3,
     "text": "Relaxed",
-    "value": "relaxed"
+    "value": "relaxed",
+    "cat": "chill"
   },
   {
     "id": 4,
     "text": "Sad",
-    "value": "sad"
+    "value": "sad",
+    "cat": "blues"
   },
   {
     "id": 5,
     "text": "Angry",
-    "value": "angry"
+    "value": "angry",
+    "cat": "punk"
   },
   {
     "id": 6,
     "text": "Stressed",
-    "value": "stressed"
+    "value": "stressed",
+    "cat": "metal"
   }]
 },
 {
@@ -294,31 +337,36 @@
     "id": 0,
     "next": 6,
     "text": "A Sport",
-    "value": "sport"
+    "value": "sport",
+    "cat": "workout"
   },
   {
     "id": 1,
     "next": 6,
     "text": "Something Crafty",
-    "value": "craft"
+    "value": "craft",
+    "cat": "focus"
   },
   {
     "id": 2,
     "next": 6,
     "text": "Something Practical",
-    "value": "practical"
+    "value": "practical",
+    "cat": "rock"
   },
   {
     "id": 3,
     "next": 6,
     "text": "Musical",
-    "value": "musical"
+    "value": "musical",
+    "cat": "jazz"
   },
   {
     "id": 4,
     "next": 6,
     "text": "Techy",
-    "value": "techy"
+    "value": "techy",
+    "cat": "funk"
   }]
 },
 {
@@ -336,31 +384,36 @@
     "id": 1,
     "next": 7,
     "text": "See Friends",
-    "value": "friends"
+    "value": "friends",
+    "cat": "pop"
   },
   {
     "id": 2,
     "next": 7,
     "text": "Have Friends over for dinner",
-    "value": "dinner"
+    "value": "dinner",
+    "cat": "dinner"
   },
   {
     "id": 3,
     "next": 7,
     "text": "Go out for the evening",
-    "value": "evening"
+    "value": "evening",
+    "cat": "dinner"
   },
   {
     "id": 4,
     "next": 7,
     "text": "Go out for the night",
-    "value": "night"
+    "value": "night",
+    "cat": "pop"
   },
   {
     "id": 5,
     "next": 7,
     "text": "PARTY!",
-    "value": "party"
+    "value": "party",
+    "cat": "edm_dance"
   }]
 },
 {
@@ -372,36 +425,42 @@
     "id": 0,
     "next": 8,
     "text": "Relaxed",
-    "value": "relaxed"
+    "value": "relaxed",
+    "cat": "chill"
   },
   {
     "id": 1,
     "next": 8,
     "text": "Happy",
-    "value": "happy"
+    "value": "happy",
+    "cat": "indie_alt"
   },
   {
     "id": 2,
     "next": 8,
     "text": "Tired",
-    "value": "tired"
+    "value": "tired",
+    "cat": "sleep"
   },
   {
     "id": 3,
     "next": 8,
     "text": "Sad",
-    "value": "sad"
+    "value": "sad",
+    "cat": "blues"
   },
   {
     "id": 4,
     "next": 8,
     "text": "Angry",
-    "value": "angry"
+    "value": "angry",
+    "cat": "punk"
   },
   {
     "id": 5,
     "next": 8,
     "text": "Sleep? Its Friday/Saturday night, no time for sleep!",
-    "value": "sleep"
+    "value": "sleep",
+    "cat": "edm_dance"
   }]
 }]

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ApiConnections }    from '../../services/api-connections.service';
 
 @Component({
@@ -6,6 +6,8 @@ import { ApiConnections }    from '../../services/api-connections.service';
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
+
+  @Output() passAnswers: EventEmitter<any> = new EventEmitter<any>();
 
   public answers;
 
@@ -15,6 +17,6 @@ export class HomeComponent implements OnInit {
 
   getAnswers(answers: any):void {
     this.answers = answers;
-    console.log(this.answers);
+    this.passAnswers.emit('testing');
   }
 }

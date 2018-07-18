@@ -1,4 +1,4 @@
 <section am-wrapper="gradient">
   <questions *ngIf="!answers" (endAnswers)="getAnswers($event)"></questions>
-  <track-generator *ngIf="answers"></track-generator>
+  <track-generator *ngIf="answers" [passAnswers]="answers"></track-generator>
 </section>

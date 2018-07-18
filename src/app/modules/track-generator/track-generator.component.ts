@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'track-generator',
@@ -6,9 +6,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TrackGeneratorComponent implements OnInit {
 
-  constructor() { }
+  @Input() passAnswers;
+
+  public answers;
+
+  constructor() {}
 
   ngOnInit() {
+    this.answers = this.passAnswers;
+    this.getTracks();
   }
 
+  getTracks() {
+    this.answers.forEach(function (answer, index) {
+      console.log(index);
+      console.log(answer.cat);
+    });
+  }
 }
