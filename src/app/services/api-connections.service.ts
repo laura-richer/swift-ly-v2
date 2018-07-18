@@ -12,4 +12,9 @@ export class ApiConnections {
   getQuestions() {
     return this.http.get('../assets/json/questions.json');
   }
+
+  // Get default answers
+  getAnswers() {
+    return this.http.get('../assets/json/answers.json');
+  }
 }

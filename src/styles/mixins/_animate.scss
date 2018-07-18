@@ -1,5 +1,5 @@
 @mixin animate($attribute, $time, $delay){
     transition: $attribute $time linear $delay;
-  	-moz-transition: $attribute $time linear $delay; 
+  	-moz-transition: $attribute $time linear $delay;
   	-webkit-transition: $attribute $time linear $delay;
 }

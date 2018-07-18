@@ -1,0 +1,22 @@
+[am-button] {
+  display: inline-block;
+  background-color: map-get($color, "black");
+  color: map-get($color, "white");
+  border-radius: cRem(50);
+  padding: cRem(7) cRem(30);
+  margin-top: cRem(30);
+  cursor: pointer;
+  @include animate(all, .3s, 0s);
+
+  &[am-button~="reset"] {
+    opacity: .7;
+  }
+
+  &:hover {
+    background-color: map-get($color, "spotify-green");
+  }
+
+  @media #{$above-md} {
+    margin-top: cRem(60);
+  }
+}

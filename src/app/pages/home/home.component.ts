@@ -7,8 +7,14 @@ import { ApiConnections }    from '../../services/api-connections.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public answers;
+
+  constructor() {}
 
   ngOnInit() {}
 
+  getAnswers(answers: any):void {
+    this.answers = answers;
+    console.log(this.answers);
+  }
 }

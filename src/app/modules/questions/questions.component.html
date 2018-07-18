@@ -5,7 +5,15 @@
     </div>
   </div>
 
-  <form ng-submit="processForm()">
+  <div am-row *ngIf="page == 8">
+    <div am-col="sm-12" am-align="center">
+      <span
+        am-button
+        (click)="submit()">Get your soundtrack</span>
+    </div>
+  </div>
+
+  <form *ngIf="page != 8">
     <div am-block-height>
       <div *ngFor="let question of questions">
         <div *ngIf="question.page == page">
@@ -19,7 +27,6 @@
                 <input
                   type="radio"
                   name="q-{{question.id}}"
-                  [value]="answer.value"
                   [checked]="answer.id == 0"
                   (change)="onSelectionChange(answer, question.id, question.page)">
                   {{answer.text}}
@@ -29,16 +36,14 @@
         </div>
       </div>
 
-      <div class="form-buttons">
-        <a
-          (click)="next(page)"
-          class="button">Next</a>
+      <span
+        am-button
+        (click)="next()">Next</span>
 
-        <button
-          class="reset"
-          (click)="reset()">Reset</button>
+      <span
+        am-button="reset"
+        (click)="reset()">Reset</span>
 
-      </div>
     </div>
   </form>
 </div>

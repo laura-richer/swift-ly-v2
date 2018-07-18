@@ -6,36 +6,43 @@
   "answers": [
   {
     "id": 0,
+    "next": 2,
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 1,
+    "next": 2,
     "text": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
+    "next": 2,
     "text": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
+    "next": 2,
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 4,
+    "next": 2,
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 5,
+    "next": 2,
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
+    "next": 2,
     "text": "Stressed",
     "value": "stressed"
   }]
@@ -83,21 +90,25 @@
   "answers": [
   {
     "id": 0,
+    "next": 3,
     "text": "Going to work",
     "value": "work"
   },
   {
     "id": 1,
+    "next": 6,
     "text": "Going to School",
     "value": "school"
   },
   {
     "id": 2,
+    "next": 4,
     "text": "Having a day off",
     "value": "dayoff"
   },
   {
     "id": 3,
+    "next": 4,
     "text": "No work/school it’s the weekend!",
     "value": "weekend"
   }]
@@ -150,42 +161,50 @@
   "answers": [
   {
     "id": 0,
-    "category": "Relaxed",
+    "next": 6,
+    "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 1,
-    "category": "Motivated",
+    "next": 6,
+    "text": "Motivated",
     "value": "motivated"
   },
   {
     "id": 2,
-    "category": "Excited",
+    "next": 6,
+    "text": "Excited",
     "value": "excited"
   },
   {
     "id": 3,
-    "category": "Stressed",
+    "next": 6,
+    "text": "Stressed",
     "value": "stressed"
   },
   {
     "id": 4,
-    "category": "Bored",
+    "next": 6,
+    "text": "Bored",
     "value": "bored"
   },
   {
     "id": 5,
-    "category": "Angry",
+    "next": 6,
+    "text": "Angry",
     "value": "angry"
   },
   {
     "id": 6,
-    "category": "Busy",
+    "next": 6,
+    "text": "Busy",
     "value": "busy"
   },
   {
     "id": 7,
-    "category": "Rushed",
+    "next": 6,
+    "text": "Rushed",
     "value": "rushed"
   }]
 },
@@ -196,26 +215,31 @@
   "answers": [
   {
     "id": 0,
+    "next": 6,
     "text": "Relax",
     "value": "relax"
   },
   {
     "id": 1,
+    "next": 6,
     "text": "Run Errands",
     "value": "errands"
   },
   {
     "id": 2,
+    "next": 5,
     "text": "Enjoy a Hobby",
     "value": "hobby"
   },
   {
     "id": 3,
+    "next": 6,
     "text": "Exercise",
     "value": "exercise"
   },
   {
     "id": 4,
+    "next": 6,
     "text": "Do Housework/Chores",
     "value": "chores"
   }]
@@ -268,26 +292,31 @@
   "answers": [
   {
     "id": 0,
+    "next": 6,
     "text": "A Sport",
     "value": "sport"
   },
   {
     "id": 1,
+    "next": 6,
     "text": "Something Crafty",
     "value": "craft"
   },
   {
     "id": 2,
+    "next": 6,
     "text": "Something Practical",
     "value": "practical"
   },
   {
     "id": 3,
+    "next": 6,
     "text": "Musical",
     "value": "musical"
   },
   {
     "id": 4,
+    "next": 6,
     "text": "Techy",
     "value": "techy"
   }]
@@ -299,31 +328,37 @@
   "answers": [
   {
     "id": 0,
+    "next": 7,
     "text": "Relax",
     "value": "relax"
   },
   {
     "id": 1,
+    "next": 7,
     "text": "See Friends",
     "value": "friends"
   },
   {
     "id": 2,
+    "next": 7,
     "text": "Have Friends over for dinner",
     "value": "dinner"
   },
   {
     "id": 3,
+    "next": 7,
     "text": "Go out for the evening",
     "value": "evening"
   },
   {
     "id": 4,
+    "next": 7,
     "text": "Go out for the night",
     "value": "night"
   },
   {
     "id": 5,
+    "next": 7,
     "text": "PARTY!",
     "value": "party"
   }]
@@ -335,31 +370,37 @@
   "answers": [
   {
     "id": 0,
+    "next": 8,
     "text": "Relaxed",
     "value": "relaxed"
   },
   {
     "id": 1,
+    "next": 8,
     "text": "Happy",
     "value": "happy"
   },
   {
     "id": 2,
+    "next": 8,
     "text": "Tired",
     "value": "tired"
   },
   {
     "id": 3,
+    "next": 8,
     "text": "Sad",
     "value": "sad"
   },
   {
     "id": 4,
+    "next": 8,
     "text": "Angry",
     "value": "angry"
   },
   {
     "id": 5,
+    "next": 8,
     "text": "Sleep? Its Friday/Saturday night, no time for sleep!",
     "value": "sleep"
   }]
