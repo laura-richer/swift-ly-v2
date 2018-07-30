@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ApiConnections {
 
-  private wpAPI: string = 'http://api.havokbikepark.com/wp-json/';
+  // API paths
+  private spotifyBase: string = 'https://api.spotify.com/v1/'
 
   constructor(private http: HttpClient) {}
 
@@ -17,4 +19,7 @@ export class ApiConnections {
   getAnswers() {
     return this.http.get('../assets/json/answers.json');
   }
+
+  // Spotify data
+
 }

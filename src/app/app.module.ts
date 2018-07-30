@@ -1,10 +1,13 @@
 import { BrowserModule }    from '@angular/platform-browser';
 import { NgModule }         from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+
+// Core modules
 import { AppRoutingModule } from './app-routing.module';
+//import { SpotifyService }   from '../../node-modules/angular2-spotify/';
+import { AppComponent }     from './app.component';
 
-import { AppComponent }            from './app.component';
-
+// Services
 import { ApiConnections }          from './services/api-connections.service';
 
 import { FooterComponent }         from './global/footer/footer.component';
@@ -27,7 +30,8 @@ import { HomeComponent }           from './pages/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    //SpotifyService
   ],
   providers: [ApiConnections],
   bootstrap: [AppComponent]
